@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Arduino Bluetooth</string>
+    <string name="dispositivos_emparelhados">Dispositivos Emparelhados</string>
+    <string name="string_left"><![CDATA[<]]></string>
+    <string name="string_up">A</string>
+    <string name="string_down">V</string>
+    <string name="string_right"><![CDATA[>]]></string>
 </resources>

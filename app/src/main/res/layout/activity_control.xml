@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="io.github.ronysfreitas.arduinobluetooth.ControlActivity">
+
+
+    <EditText
+        android:id="@+id/textDonw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textUp"
+        android:layout_alignStart="@+id/textUp"
+        android:layout_below="@+id/btnRigth"
+        android:layout_marginTop="74dp"
+        android:ems="3" />
+
+    <EditText
+        android:id="@+id/textRigth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ems="3" />
+
+    <EditText
+        android:id="@+id/textUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textLeft"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:ems="3" />
+
+    <EditText
+        android:id="@+id/textLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:ems="3" />
+
+    <Button
+        android:id="@+id/btnRigth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textRigth"
+        android:layout_toLeftOf="@+id/textRigth"
+        android:layout_toStartOf="@+id/textRigth"
+        android:text="@string/string_right" />
+
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textDonw"
+        android:layout_centerHorizontal="true"
+        android:text="@string/string_down" />
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textLeft"
+        android:layout_toEndOf="@+id/textLeft"
+        android:layout_toRightOf="@+id/textLeft"
+        android:text="@string/string_left" />
+
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textUp"
+        android:layout_alignLeft="@+id/btnDown"
+        android:layout_alignStart="@+id/btnDown"
+        android:layout_marginBottom="38dp"
+        android:text="@string/string_up" />
+
+
+</RelativeLayout>
